@@ -1,0 +1,187 @@
+[
+    {
+        "from": "/docs/latest/user-guide/",
+        "to": "/docs/latest/use/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/user-guide/core-concepts/",
+        "to": "/docs/latest/use/core-concepts/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/user-guide/configuring/",
+        "to": "/docs/latest/use/configure/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/user-guide/configuring/configuration-files-new/",
+        "to": "/docs/latest/use/configure/configuration-files-new/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/user-guide/configuring/configuration-files/",
+        "to": "/docs/latest/use/configure/configuration-files/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/user-guide/configuring/language-options/",
+        "to": "/docs/latest/use/configure/language-options/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/user-guide/configuring/rules/",
+        "to": "/docs/latest/use/configure/rules/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/user-guide/configuring/plugins/",
+        "to": "/docs/latest/use/configure/plugins/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/user-guide/configuring/ignoring-code/",
+        "to": "/docs/latest/use/configure/ignore/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/user-guide/command-line-interface/",
+        "to": "/docs/latest/use/command-line-interface/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/user-guide/formatters/",
+        "to": "/docs/latest/use/formatters/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/user-guide/integrations/",
+        "to": "/docs/latest/use/integrations/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/user-guide/migrating-to-8.0.0/",
+        "to": "/docs/latest/use/migrate-to-8.0.0/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/developer-guide/architecture/",
+        "to": "/docs/latest/contribute/architecture/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/developer-guide/source-code/",
+        "to": "/docs/latest/contribute/development-environment/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/developer-guide/development-environment/",
+        "to": "/docs/latest/contribute/development-environment/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/developer-guide/unit-tests/",
+        "to": "/docs/latest/contribute/tests/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/developer-guide/working-with-rules/",
+        "to": "/docs/latest/extend/custom-rules/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/developer-guide/working-with-plugins/",
+        "to": "/docs/latest/extend/plugins/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/developer-guide/working-with-custom-formatters/",
+        "to": "/docs/latest/extend/custom-formatters/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/developer-guide/working-with-custom-parsers/",
+        "to": "/docs/latest/extend/custom-parsers/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/developer-guide/nodejs-api/",
+        "to": "/docs/latest/integrate/nodejs-api/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/developer-guide/contributing/",
+        "to": "/docs/latest/contribute/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/developer-guide/contributing/reporting-bugs/",
+        "to": "/docs/latest/contribute/report-bugs/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/developer-guide/contributing/new-rules/",
+        "to": "/docs/latest/contribute/propose-new-rule/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/developer-guide/contributing/rule-changes/",
+        "to": "/docs/latest/contribute/propose-rule-change/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/developer-guide/contributing/changes/",
+        "to": "/docs/latest/contribute/request-change/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/developer-guide/contributing/working-on-issues/",
+        "to": "/docs/latest/contribute/work-on-issue/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/developer-guide/contributing/pull-requests/",
+        "to": "/docs/latest/contribute/pull-requests/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/maintainer-guide/",
+        "to": "/docs/latest/maintain/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/maintainer-guide/issues/",
+        "to": "/docs/latest/maintain/manage-issues/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/maintainer-guide/pullrequests/",
+        "to": "/docs/latest/maintain/review-pull-requests/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/maintainer-guide/releases/",
+        "to": "/docs/latest/maintain/manage-releases/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/maintainer-guide/governance/",
+        "to": "/docs/latest/contribute/governance/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/user-guide/*",
+        "to": "/docs/latest/use/:splat/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/developer-guide/*",
+        "to": "/docs/latest/extend/:splat/",
+        "status": "301!"
+    },
+    {
+        "from": "/docs/latest/maintainer-guide/*",
+        "to": "/docs/latest/maintain/:splat/",
+        "status": "301!"
+    }
+]

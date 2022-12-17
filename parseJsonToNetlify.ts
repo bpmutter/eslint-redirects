@@ -1,6 +1,11 @@
 import { readFileSync, writeFileSync } from 'fs';
 
-const redirects = JSON.parse(readFileSync('redirects.json', 'utf-8')) as Redirect[];
+const [_, __, maybeJsonFile, maybeNetlifyFile] = process.argv;
+
+const jsonFile = maybeJsonFile || 'redirects.json';
+const netlifyFile = maybeNetlifyFile || '_redirects';
+
+const redirects = JSON.parse(readFileSync(jsonFile, 'utf-8')) as Redirect[];
 
 /**
  * Set a standard length for the 'from' link.
@@ -22,5 +27,5 @@ const descriptionComment = "# Redirects for the ESLint IA Refactor (https://gith
 const netlifyRedirectFileContent = descriptionComment + redirectStrings.join("\n");
 
 
-writeFileSync('_redirects', netlifyRedirectFileContent);
-console.log("Wrote redirects to file `_redirects` in Netlify format!");
+writeFileSync(netlifyFile, netlifyRedirectFileContent);
+console.log(`Wrote redirects from \`${jsonFile}\` to file \`${netlifyFile}\` in Netlify format!`);
