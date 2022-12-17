@@ -1,0 +1,26 @@
+{
+  "name": "eslint-redirects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "md-to-json": "ts-node parseMdToJson.ts",
+    "json-to-netlify": "ts-node parseJsonToNetlify.ts",
+    "md-to-netlify": "npm run md-to-json && npm run json-to-netlify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.16",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "eslint": "^8.30.0",
+    "eslint-config-standard-with-typescript": "^24.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.4"
+  }
+}
